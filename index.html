@@ -2,8 +2,15 @@
 <html>
 <head>
     <style>
-        *{
+        * {
             background-color: white;
+            padding: 0;
+            margin: 0;
+        }
+        html {
+            font-family: sans-serif;
+            font-size: 16px;
+            align-content: center;
         }
     </style>
     <script>
@@ -11,9 +18,20 @@
         {
             window.location.replace("https://matias.ma/nsfw/")
         })
+        function Sub()
+        {
+            document.body.innerHTML = document.body.innerHTML
+        }
     </script>
 </head>
 <body>
-    <h1 style="color: white;">..</h1>
+    <nav>
+        <a style="visibility: hidden;" href="#">Home</a>
+        <a style="visibility: hidden;" href="#">About</a>
+    </nav>
+    <h1 style="visibility: hidden;">HiHiHiHiHiHi</h1>
+    <form action="submit">
+        <button style="visibility: hidden;" type="button" onclick="Sub()">Press</button>
+    </form>
 </body>
 </html>
